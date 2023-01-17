@@ -1,0 +1,10 @@
+==790821== Memcheck, a memory error detector
+==790821== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==790821== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==790821== Command: ./aws
+==790821== Parent PID: 790818
+==790821== 
+==790821== Conditional jump or move depends on uninitialised value(s)
+==790821==    at 0x10C22F: out (server.c:498)
+==790821==    by 0x10C441: main (server.c:549)
+==790821== 
